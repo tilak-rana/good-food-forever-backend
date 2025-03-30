@@ -3,8 +3,8 @@ const mongoose = require("mongoose");
 const cors = require("cors");
 const route = require("./Route/index");
 require("dotenv").config();
-const port = process.env.PORT || 5000; // Port number for the server
-const hostname = "localhost";
+const port = process.env.PORT || 5500; // Port number for the server
+const hostname = "0.0.0.0";
 
 const ATLASDb_URL = process.env.DATABASE_URL; // MongoDB Atlas connection string
 
