@@ -9,7 +9,7 @@ const hostname = "0.0.0.0";
 const ATLASDb_URL = process.env.DATABASE_URL; // MongoDB Atlas connection string
 
 const corsOptions = {
-  origin: "https://keen-semifreddo-11536b.netlify.app",
+  origin: "*",
   credentials: true,
   OptionSuccessStatus: 200,
 };
